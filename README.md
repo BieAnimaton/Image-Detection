@@ -6,14 +6,13 @@ Trained Cascasdes to detect face, body, smile, and others objects in image or vi
 ## Image
 ![lena](https://user-images.githubusercontent.com/52220244/98531200-c4dcb180-225e-11eb-9d9d-61910d2367c6.JPG)
 
-![face and eyes detection](https://user-images.githubusercontent.com/52220244/98531034-834c0680-225e-11eb-9678-5eaa5f85daa9.JPG)
-
-![face and eyes detection 2](https://user-images.githubusercontent.com/52220244/98531039-847d3380-225e-11eb-9681-a630f2a77e09.JPG)
-
 ![faith connors](https://user-images.githubusercontent.com/52220244/98531296-e5a50700-225e-11eb-9ade-1ce5f6de43ed.JPG)
 
 ![car 1](https://user-images.githubusercontent.com/52220244/98531074-91018c00-225e-11eb-8e29-3e4984703569.JPG)
 
+![face and eyes detection](https://user-images.githubusercontent.com/52220244/98531034-834c0680-225e-11eb-9678-5eaa5f85daa9.JPG)
+
+![face and eyes detection 2](https://user-images.githubusercontent.com/52220244/98531039-847d3380-225e-11eb-9681-a630f2a77e09.JPG)
 
 ## How Install :bookmark_tabs:
 ```
