@@ -5,7 +5,7 @@ qntd_olhos = 0
 classificadorFace = cv2.CascadeClassifier('cascades\haarcascade_frontalface_default.xml')
 classificadorOlhos = cv2.CascadeClassifier('cascades\haarcascade_eye.xml')
 
-imagem = cv2.imread('pessoas\\pessoas2.jpg')
+imagem = cv2.imread('pessoas\\faith_connors.jpg')
 imagemCinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 
 facesDetectadas = classificadorFace.detectMultiScale(imagemCinza, minSize=(32, 32), scaleFactor=1.3, minNeighbors=5)
@@ -14,7 +14,7 @@ print(qntd_pessoas)
 
 for (x, y, l, a) in facesDetectadas:
     font = cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(imagem, "People", (x, y - 5), font, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+    cv2.putText(imagem, "People", (x, y - 5), font, 0.5, (0, 0, 0), 1, cv2.LINE_AA)
 
     imagem = cv2.rectangle(imagem, (x, y), (x + l, y + a), (0, 0, 255), 1)
 

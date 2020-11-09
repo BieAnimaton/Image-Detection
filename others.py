@@ -2,12 +2,12 @@ import cv2
 qntd_pessoas = 0
 qntd_olhos = 0
 
-classificadorBird = cv2.CascadeClassifier('cascades\\cars.xml')
+classificadorBird = cv2.CascadeClassifier('cascades\\horse2.xml')
 
-imagem = cv2.imread('others\\car1.jpg')
+imagem = cv2.imread('others\\horse2.jpg')
 imagemCinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 
-passarosDetectadas = classificadorBird.detectMultiScale(imagemCinza, minSize=(20, 20))
+passarosDetectadas = classificadorBird.detectMultiScale(imagemCinza, minSize=(10, 10))
 qntd_pessoas = len(passarosDetectadas)
 print(qntd_pessoas)
 
